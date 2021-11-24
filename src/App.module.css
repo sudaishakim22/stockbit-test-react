@@ -1,0 +1,13 @@
+.movie__row {
+  overflow-x: auto;
+  flex-wrap: nowrap !important;
+}
+
+.movie__row::-webkit-scrollbar {
+  display: none;
+}
+
+.movie__row {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
